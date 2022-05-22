@@ -187,10 +187,8 @@ max-width: 100vw;
 }
 footer{
     background-color: #e8e8e8;
-    max-width:100vw;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%; 
+    padding-top: 10px;
+    font-weight: 500; 
     
 }
 .logo-footer{
@@ -235,4 +233,7 @@ footer{
 .carousel-img{
     height: 500px;
     width: auto;   
+}
+.col{
+    text-align: center;
 }
