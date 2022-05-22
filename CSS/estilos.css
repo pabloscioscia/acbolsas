@@ -185,6 +185,9 @@ max-width: 100vw;
     left: 95%;  
     z-index: 1;    
 }
+.iconos{
+    height: 40px;
+}
 footer{
     background-color: #e8e8e8;
     padding-top: 10px;
