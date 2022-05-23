@@ -93,6 +93,16 @@ p{
     margin-right: auto;
 
 }
+.img-destacada2 {
+    max-height:450px;
+    max-width: 100vw;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
+
+}
 .destacado2 {
     padding-top: 20px;
     padding-bottom: 20px;
