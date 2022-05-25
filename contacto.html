@@ -65,30 +65,41 @@
         <section id="form-contacto">
             <fieldset>
                 <legend>¿Cómo podemos ayudarte?</legend>
-                <form action="/" method="post">
+                <form action="mailto@pscioscia13@gmail.com" method="post" enctype="text/plain">
                     <label for="nombre">Nombre</label>
+                    <br>
                     <input id="nombre" type="text" required>
                     <br>
                     <label for="email">Email</label>
+                    <br>
                     <input id="email" type="email" required>
+                    <br>
                     <label for="Teléfono">Teléfono</label>
+                    <br>  
                     <input id="Teléfono" type="text">
                     <br>
                     <label for="tipodebolsa">Tipo de bolsa</label>
-                    <input id="tipodebolsa" type="radio">
-                    <label for="cantidad">Cantidad</label>
-                    <input id="cantidad" type="text" list="items">
-                    <datalist id="items">
-                        <option value="1.500"></option>
-                        <option value="2.000"></option>
-                        <option value="3.000"></option>
-                        <option value="5.000"></option>
-                        <option value="10.000"></option>
-                    </datalist>
-                    <label for="mensaje">O escribinos tu consulta acá</label>
-                    <input id="mensaje" type="textarea" required>
                     <br>
-                    <input id="button" type="submit" value="ENVIAR">
+                    <input id="tipodebolsa" type="radio">
+                    <br>
+                    
+                    <label for="cantidad">Cantidad</label>
+                    <br>
+                    <select name="cantidad" id="Cantidad" size="6">
+                    <br>
+                        <option value="1500">1500</option>
+                        <option value="2000">2000</option>
+                        <option value="3000">3000</option>
+                        <option value="5000">5000</option>
+                        <option value="10000">10000</option>
+                        <option value="más de 10.000">más de 10000</option>
+                    </select>
+                    <br>
+                    <label for="mensaje">O escribinos tu consulta acá</label>
+                    <br>
+                    <input id="mensaje" type="textarea">
+                    <br>
+                    <input id="form-boton" type="submit" value="ENVIAR">
             </fieldset>
             </form>
         </section>

@@ -224,13 +224,43 @@ footer{
     display: inline;
     justify-content: center;
 }
-.form-contacto{
+
+.form-container{
     display: flex;   
+    justify-content: center;
+    text-align: center;
+    border-width: 2px;
+    padding-bottom: 25px;
     border: #151515;
-    border-style: double;
+    border-width: 2px;
+}
+
+#form-contacto{
+    width: 70%;
+    max-width: 600px;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
+    color: black;
+    font-weight: bold;
 }
+
+#form-contacto input {
+    width: 100%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+
+
+
+#mensaje { 
+    width: 100%; 
+    height: 10rem; 
+}
+
+
 .quienes-somos{
     padding: 3%;
     max-width: 100vw;
