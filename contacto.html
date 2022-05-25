@@ -59,28 +59,29 @@
             </div>
         </nav>
     </Header>
-    <h1>Contactanos</h1>
-    <h2>Solicitá tu presupuesto sin compromiso</h2>
+    <h1 style="text-align:center">Solicitá tu presupuesto sin compromiso</h1>
+
     <div class="form-container">
         <section id="form-contacto">
             <fieldset>
-                <legend>¿Cómo podemos ayudarte?</legend>
+                <legend> <b>Contactanos</b></legend>
+                <p><b>Recordá que somos fabricantes: tenemos el mejor precio y producimos a partir de 1500 unidades, dependiendo el modelo y tamaño del producto.</b></p>
                 <form action="mailto@pscioscia13@gmail.com" method="post" enctype="text/plain">
                     <label for="nombre">Nombre</label>
                     <br>
-                    <input id="nombre" type="text" required>
+                    <input id="nombre" type="text" style="width: 60%;" required>
                     <br>
                     <label for="email">Email</label>
                     <br>
-                    <input id="email" type="email" required>
+                    <input id="email" type="email" style="width: 60%;" required>
                     <br>
-                    <label for="Teléfono">Teléfono</label>
+                    <label for="telefono">Teléfono</label>
                     <br>  
-                    <input id="Teléfono" type="text">
+                    <input id="telefono" type="number" style="width: 60%;">
                     <br>
                     <label for="tipodebolsa">Tipo de bolsa</label>
                     <br>
-                    <select name="tipodebolsa" id="tipodebolsa" size="9f">
+                    <select name="tipodebolsa" id="tipodebolsa" size="9">
                     <br>
                         <option value="bolsa-camiseta">Bolsa camiseta</option>
                         <option value="bolsa-rinon">Bolsa riñón</option>
@@ -97,7 +98,7 @@
 
                     <label for="cantidad">Cantidad</label>
                     <br>
-                    <select name="cantidad" id="Cantidad" size="6">
+                    <select name="cantidad" id="cantidad" size="6">
                     <br>
                         <option value="1500">1500</option>
                         <option value="2000">2000</option>
@@ -109,9 +110,10 @@
                     <br>
                     <label for="mensaje">O escribinos tu consulta acá</label>
                     <br>
-                    <input id="mensaje" type="textarea">
+                    <textarea name="mensaje" id="mensaje" rows="10"></textarea>
                     <br>
-                    <input id="form-boton" type="submit" value="ENVIAR">
+                    
+                    <input class="btn btn-primary" type="submit" value="ENVIAR">
             </fieldset>
             </form>
         </section>
@@ -143,5 +145,6 @@
         </div>
         </div>
       </div>
+
 </footer>
 </html>
