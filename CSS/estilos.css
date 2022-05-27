@@ -276,8 +276,7 @@ footer{
 }
 
 #mensaje { 
-    width: 80%;
-    min-width: 350px;
+    width: 80%; 
     margin-bottom: 1rem;
     border-color: #b9b9b9;
     border-width: 1px;
